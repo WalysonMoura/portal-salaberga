@@ -1,0 +1,93 @@
+
+/* ---------------- MENU ----------------------- */
+.l-header{
+  width: 100%;
+  height: 2rem;
+  
+}
+.c-navbar {
+    position: fixed;
+    width: 100%;
+    
+    z-index: 3;
+    padding: 0.5rem  2rem;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .c-navbar__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .c-navbar--active{
+    background-color: #eeeeee;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+    
+  }
+  
+  .c-navbar__sal{
+    width: 3rem;
+  }
+  .c-navbar__sal--img{
+    width: 100%;
+    height: 100%;
+  }
+  .c-navbar__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .c-navbar__itens {
+    color: #6b6b6b;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .c-navbar__itens:hover {
+    color: black;
+    transition: 0.5s;
+  }
+  
+  
+  .c-navbar__perfil {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    
+  }
+  
+  .c-navbar__perfil--img {
+    font-size: 2rem;
+    color: #000;
+  }
+  .c-navbar__perfil--mobile{
+    display: none;
+  }
+  .c-navbar__btn {
+    height: 3rem;
+    width: 3rem;
+    display: none;
+    cursor: pointer;
+    
+  }
+  
+  .c-navbar__icon {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .c-navbar__btn--cancel {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }

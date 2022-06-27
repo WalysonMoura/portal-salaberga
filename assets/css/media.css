@@ -1,0 +1,82 @@
+/* ---------------- MAIN ------------------ */
+
+@media (max-width: 868px) {
+  .c-body__disabled {
+    overflow: hidden;
+  }
+  .c-navbar__perfil {
+    width: 5rem;
+    height: 5rem;
+    display: none;
+  }
+
+  .c-navbar__perfil--img {
+    font-size: 3rem;
+  }
+  .c-navbar__titulo {
+    font-size: 1.5rem;
+  }
+  .c-navbar__btn {
+    display: block;
+  }
+
+  .c-navbar__perfil--active {
+    display: grid;
+  }
+
+  .c-navbar__menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 0;
+    background-color: #eeeeee;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .c-navbar.show .c-navbar__menu-list {
+    left: 0%;
+  }
+  /*
+  .c-navbar__item-list {
+    padding: 10px 0px;
+    padding-left: 10%;
+  }
+*/
+
+  .c-navbar__itens {
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .show .c-navbar__itens {
+    margin-left: 0px;
+  }
+
+  .c-navbar__button {
+    display: none;
+  }
+  .c-principal {
+    padding-top: 3rem;
+  }
+}
+
+/* ---------------- MAIN ------------------ */
+@media (max-width: 868px) {
+  .c-principal__titulo {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-widht: 760px) {
+  .c-main {
+    flex-direction: column;
+  }
+}
