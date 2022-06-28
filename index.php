@@ -57,7 +57,7 @@ require("admin/functions/limita-texto.php");
 					</li>
 
 					<li class="c-navbar__item-list">
-						<a href="" class="c-navbar__itens" target="_self" rel="next">Biblioteca</a>
+						<a href="https://ricardopinheiro-22.github.io/BiblioTech/" class="c-navbar__itens" target="_self" rel="next">Biblioteca</a>
 					</li>
 
 					<li class="c-navbar__item-list">
